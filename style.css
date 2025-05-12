@@ -1,0 +1,380 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited
+{
+    text-align: center;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: limegreen;
+    color: white;
+    padding: 10px;
+    
+}
+
+footer h3
+{
+    text-align: center;
+}
+
+header
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+    padding-bottom: 1%;
+    padding-top: 1%
+    
+}
+
+header
+{
+    text-align: center;
+}
+
+header img
+{
+    width: 20%;
+}
+
+.about
+{
+    padding: 10px;
+    text-align: center;
+}
+
+.about h3
+{
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
+}
+
+.about img
+{
+    height: 200px;
+    width: 200px;
+}
+
+.about p
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-detail
+{
+    background: lightgray;
+    padding: 20px;
+}
+
+.about-pict
+{
+    height: 300px;
+    padding: 20px;
+    width: 250px;
+}
+
+.about-pict p
+{
+    margin-top: 0px;
+}
+
+.btn-A
+{
+    background-color: limegreen;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+}
+
+.btn-A:hover
+{
+    background-color: white;
+    border: 3px solid limegreen;
+    color: limegreen;
+    padding: 10px;
+}
+
+.btn-B
+{
+    border: 3px solid limegreen;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn-B:hover
+{
+    background-color: limegreen;
+    border: none;
+    color: white;
+    padding: 13px;
+}
+
+.category
+{
+    padding: 10px;
+}
+
+.call-to-action
+{
+    padding: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.call-to-action .flex
+{
+    gap: 50px;
+    justify-content: center;
+}
+
+.course
+{
+    background: lightgray;
+    padding: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.course img
+{
+    width: 100%;
+}
+
+.course .card
+{
+    background: white;
+    box-shadow: 5px 5px 10px black;
+    height: 400px;
+    padding: 20px;
+    width: 400px;
+}
+
+.course .grid
+{
+    gap: 50px;
+}
+
+.flex
+{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.form
+{
+    background: #FFFFFF;
+    border: 10px #000000;
+    box-shadow: 1px 1px 6px #696969;
+    padding: 10px;
+    width: auto;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+/* Form name styling. */
+.formname
+{
+    color: #595959;
+    font-size: medium;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.grid
+{
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: auto auto auto;
+    width: auto;
+}
+
+/* Input styling (used in form input with type = text. */
+.input
+{
+    margin: 10px;
+    padding: 10px;
+    width: 96.5%;
+}
+
+/* Navbar container. */
+.navbar
+{
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+}
+
+.navbar a
+{
+    color: black;
+    display: block;
+    float: left;
+    font-size: 16px;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .active {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar .active:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+
+.partner
+{
+    background: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.partner img
+{
+    height: 100px;
+    margin: 10px;
+    width: 100px;
+}
+
+.search
+{
+    float: right;
+}
+
+.search button
+{
+    background: limegreen;
+    border: none;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    margin-right: 16px;
+    margin-top: 8px;
+    padding: 6px 10px;
+}
+
+.search input[type = "text"]
+{
+    background-color: lightgray;
+    border: none;
+    margin-right: 16px;
+    margin-top: 8px;
+    padding: 6px 10px;
+}
+
+/* Submit button styling. */
+.submit
+{
+    background: white;
+    border: 3px solid limegreen;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    width: 98%;
+}
+
+.submit:hover
+{
+    background-color: limegreen;
+    border: none;
+    color: white;
+    padding: 13px;
+}
+
+.terms li
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.terms h2
+{
+    text-align: center;
+}
+
+.testimony
+{
+    background: lightgray;
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.testimony h3
+{
+    border-bottom: 1px solid gray;
+}
+
+.testimony img
+{
+    height: 200px;
+    width: 200px;
+}
+
+.testimony .card
+{
+    background: white;
+    box-shadow: 5px 5px 10px black;
+    height: 400px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.borderabout
+{
+ text-align: center;
+}
+
+.bio
+{
+    text-align: left;
+    font-size: medium;
+    font-style: initial;
+}
+
+.cardtext
+{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.halman2 
+{
+    padding: 60px 20px;  
+    background-color: #f9f9f9;
+}
+
